@@ -11,7 +11,7 @@ setup(
               'fusesoc.ipyxact',
               'fusesoc.simulator',
               'fusesoc.provider'],
-    version = "1.5",
+    version = "1.6-stable",
     author = "Olof Kindgren",
     author_email = "olof.kindgren@gmail.com",
     description = ("FuseSoC is a package manager and a set of build tools for HDL (Hardware Description Language) code."),
