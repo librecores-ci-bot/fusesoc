@@ -10,7 +10,7 @@ node('docker-icarus-quartus') {
         
         stage 'Test'
         sh "fusesoc sim wb_sdram_ctrl"
-        sh "fusesoc build sockit"
+        //sh "fusesoc build sockit"
 
     } finally {
         stage 'Process reports'
